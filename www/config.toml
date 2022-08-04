@@ -51,9 +51,9 @@ enableRobotsTXT = true
   term = ["HTML", "ATOM"]
 
 [params]
-  subtitle = "Blog about my favorite topics"
-  description = "This is my personal blog about tech."
-  keywords = []
+  subtitle = "# The engineer who can code"
+  description = "This is Deokgon Kim's personal blog about tech."
+  keywords = ["dgkim", "opensource", "linux"]
   images = []
 
   # (Optional, default static/brand.svg) Set the path to a logo for the Geekblog
@@ -82,7 +82,7 @@ enableRobotsTXT = true
   geekblogAuthor = "dgkim"
 
   # (Optional, default posts) Set the name of the default content section.
-  geekblogContentSection = "my-pages"
+  geekblogContentSection = "pages"
 
   # (Optional, default true) Enable or disable image lazy loading for images rendered
   # by the 'img' shortcode.
