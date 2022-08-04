@@ -1,0 +1,11 @@
+---
+header:
+  - name: Github Profile
+    icon: gblog_github
+    ref: "https://github.com/deokgonkim"
+    external: true
+
+footer:
+  - name: About
+    icon: gblog_email
+    ref: "/about"
