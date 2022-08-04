@@ -1,0 +1,53 @@
+{
+	"Version": "2012-10-17",
+	"Id": "Policy1611348323526",
+	"Statement": [
+		{
+			"Sid": "PublicReadAccess",
+			"Effect": "Allow",
+			"Principal": "*",
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::${BUCKET_NAME}/*"
+		},
+		{
+			"Sid": "ListBucket",
+			"Effect": "Allow",
+			"Principal": {
+				"AWS": "arn:aws:iam::${ACCOUNT_ID}:user/${USER_NAME}"
+			},
+			"Action": "s3:ListBucket",
+			"Resource": "arn:aws:s3:::${BUCKET_NAME}"
+		},
+		{
+			"Sid": "ListBucketObjects",
+			"Effect": "Allow",
+			"Principal": {
+				"AWS": "arn:aws:iam::${ACCOUNT_ID}:user/${USER_NAME}"
+			},
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::${BUCKET_NAME}/*"
+		},
+		{
+			"Sid": "ModifyObjectsInBucket",
+			"Effect": "Allow",
+			"Principal": {
+				"AWS": "arn:aws:iam::${ACCOUNT_ID}:user/${USER_NAME}"
+			},
+			"Action": [
+				"s3:GetObject",
+				"s3:PutObject",
+				"s3:PutAcl",
+				"s3:DeleteObject"
+			],
+			"Resource": "arn:aws:s3:::${BUCKET_NAME}/*"
+		},
+		{
+			"Sid": "AllowCreateInvalidation",
+			"Effect": "Allow",
+			"Action": [
+				"cloudfront:CreateInvalidation"
+			],
+			"Resource": "arn:aws:cloudfront::${ACCOUNT_ID}:distribution/${AWS_CLOUDFRONT_ID}"
+		}
+	]
+}
