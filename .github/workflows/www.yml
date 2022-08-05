@@ -21,6 +21,9 @@ jobs:
     - name: Pre-build
       run: cd www/themes; sh geekblog.sh
 
+    - name: Pre-build phase2
+      run: cd www/layouts; sh apply-custom.sh
+
     - name: Build
       # remove --minify tag if you do not need it
       # docs: https://gohugo.io/hugo-pipes/minification/
