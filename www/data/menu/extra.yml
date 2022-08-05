@@ -9,3 +9,5 @@ footer:
   - name: About
     icon: gblog_email
     ref: "/about"
+  - name: FSF Member
+    ref: "/pages/about-fsf-member"
