@@ -4,7 +4,11 @@
 
 #export THEME_PATH=../themes/geekblog
 
-export ENVS='$GOOGLE_ADS_ID,$GOOGLE_TM_ID'
+if [ -f .env.sh ]; then
+  source .env.sh
+fi
+
+export ENVS='$GOOGLE_ADS_ID,$GOOGLE_TM_ID,$GOOGLE_GA_ID'
 
 export FILES="./partials/head/custom.html.tpl"
 
