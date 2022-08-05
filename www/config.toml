@@ -10,7 +10,7 @@ pluralizeListTitles = false
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 disablePathToLower = true
-enableGitInfo = true
+enableGitInfo = false
 
 # Required if you want to render robots.txt template
 enableRobotsTXT = true
@@ -25,8 +25,6 @@ enableRobotsTXT = true
 [taxonomies]
   author = "authors"
   tag = "tags"
-
-[mediaTypes]
   [mediaTypes."application/atom+xml"]
     suffixes = ["xml"]
 
