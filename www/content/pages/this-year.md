@@ -13,7 +13,7 @@ authors:
 
 # Tags for this post.
 tags:
-  - "Year"
+  - "year"
 
 # Set how many table of contents levels to be showed on page.
 geekblogToC: 3
