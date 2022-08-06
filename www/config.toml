@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Deokgon Kim'
 theme = "geekblog"
 
-paginate = 5
+paginate = 8
 pluralizeListTitles = false
 
 # Required to get well formatted code blocks
@@ -58,7 +58,7 @@ enableRobotsTXT = true
   # relative to your 'static/' folder.
   #logo = "logo.png"
   #logo = "favicon.ico"
-  logo = "dgkim.net.png"
+  logo = "favicon/favicon-white.svg"
 
   # (Optional, default 6) Set how many table of contents levels to be showed on page.
   # Use false to hide ToC, note that 0 will default to 6 (https://gohugo.io/functions/default/)
