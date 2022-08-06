@@ -50,7 +50,7 @@ enableRobotsTXT = true
 
 [params]
   subtitle = "# The engineer who can code"
-  description = "This is Deokgon Kim's personal blog about tech."
+  description = "This is Deokgon Kim s personal blog about tech."
   keywords = ["dgkim", "opensource", "linux"]
   images = []
 
