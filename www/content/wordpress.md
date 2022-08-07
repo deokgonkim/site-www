@@ -22,5 +22,6 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
-This page is placeholder/bridge page.
+### This page is placeholder/bridge page.
+
 I was using `WordPress` as my homepage. Now, I am using `Hugo`.
