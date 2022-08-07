@@ -2,7 +2,7 @@
 # Title of your post. If not set, filename will be used.
 title: "Resume"
 date: 2022-08-08T03:10:54+09:00
-draft: true
+draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
 weight: 10
