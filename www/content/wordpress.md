@@ -25,3 +25,5 @@ geekblogAnchor: true
 ### This page is placeholder/bridge page.
 
 I was using `WordPress` as my homepage. Now, I am using `Hugo`.
+
+**음... 이 페이지가 표시가 안 되네.. 아마 directory `wordpress`랑 충돌인가 싶긴 한데,**
