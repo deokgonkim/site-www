@@ -41,8 +41,14 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ secrets.AWS_REGION }}
 
-    - name: Deploy static site to S3 bucket
+    - name: Deploy static site to S3 bucket first
       run: aws s3 sync ./www/public/ s3://${{ secrets.AWS_S3_BUCKET_WWW }}/ --delete --acl public-read
 
-    - name: Invalidate CloudFront cache
+    - name: Deploy static site to S3 bucket second
+      run: aws s3 sync ./www/public/ s3://${{ secrets.AWS_S3_BUCKET_WWW2 }}/ --delete --acl public-read
+
+    - name: Invalidate CloudFront cache first
       run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CF_DISTRIBUTION_ID }} --paths "/*"
+
+    - name: Invalidate CloudFront cache second
+      run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CF_DISTRIBUTION_ID2 }} --paths "/*"
