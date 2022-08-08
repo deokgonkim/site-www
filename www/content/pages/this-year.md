@@ -22,8 +22,16 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
+  - Aug 2022 - Migrate zabbix-server from EC2 to RPi4 (zabbix-server was running on AWS EC2 t3.small, was first running on X200)
+    - to reduce monthly cost of t3.small + EBS 60 GB
+    - zabbix is mainly for home network monitoring.
 
-  - Aug 2022 - Migrate from WordPress to Hugo
+  - Aug 2022 - Migrate Blog from WordPress to Hugo (WordPress was running on GCP CE e2-small)
+    - to reduce monthly cost of GCP CE e2-small + 20 GB Storage
+    - since I don't write many articles, just static website is sufficient
+    - added another static website for testing simple web pages. on AWS CloudFront (https://public.dgkim.net/)
+
+  - Aug 2022 - **Searching for new Job now**
 
   - Jul 2022 - studied OpenCV2 with python. Contour detection. just one script.
 
