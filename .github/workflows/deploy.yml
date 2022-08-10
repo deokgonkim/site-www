@@ -24,15 +24,15 @@ jobs:
         hugo-version: "0.64.0"
 
     - name: Pre-build
-      run: cd www/themes; sh geekblog.sh
+      run: cd themes; sh geekblog.sh
 
     - name: Pre-build phase2
-      run: cd www/layouts; sh apply-custom.sh
+      run: cd layouts; sh apply-custom.sh
 
     - name: Build
       # remove --minify tag if you do not need it
       # docs: https://gohugo.io/hugo-pipes/minification/
-      run: cd www; hugo
+      run: hugo
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
@@ -42,10 +42,10 @@ jobs:
         aws-region: ${{ secrets.AWS_REGION }}
 
     - name: Deploy static site to S3 bucket first
-      run: aws s3 sync ./www/public/ s3://${{ secrets.AWS_S3_BUCKET_WWW }}/ --delete --acl public-read
+      run: aws s3 sync ./public/ s3://${{ secrets.AWS_S3_BUCKET_WWW }}/ --delete --acl public-read
 
     - name: Deploy static site to S3 bucket second
-      run: aws s3 sync ./www/public/ s3://${{ secrets.AWS_S3_BUCKET_WWW2 }}/ --delete --acl public-read
+      run: aws s3 sync ./public/ s3://${{ secrets.AWS_S3_BUCKET_WWW2 }}/ --delete --acl public-read
 
     - name: Invalidate CloudFront cache first
       run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CF_DISTRIBUTION_ID }} --paths "/*"

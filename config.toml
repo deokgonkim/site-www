@@ -1,4 +1,5 @@
-baseURL = 'https://www.deokgon.kim/'
+#baseURL = 'https://www.deokgon.kim/'
+baseURL = 'https://www.dgkim.net/'
 languageCode = 'en-us'
 title = 'Deokgon Kim'
 theme = "geekblog"
