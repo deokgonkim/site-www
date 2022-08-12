@@ -79,7 +79,7 @@ espeak will listen on /tmp/sock for text
 ```bash
 #!/bin/bash
 
-test -f /tmp/rainbowsream || mkfifo /tmp/rainbowstream
+test -e /tmp/rainbowsream || mkfifo /tmp/rainbowstream
 
 while true
 do
