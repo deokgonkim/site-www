@@ -1,0 +1,26 @@
+name: build-and-deploy
+description: Builds and Deploys Hugo Site
+inputs:
+  config-file:
+    description: Hugo config
+    required: true
+  aws-s3-bucket-www:
+    description: AWS S3 Deployment Bucket Name
+    required: true
+  aws-cf-distribution-id:
+    description: AWS CloudFront Deployment Id
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Build
+      # remove --minify tag if you do not need it
+      # docs: https://gohugo.io/hugo-pipes/minification/
+      run: hugo --config ${{ inputs.config-file }}
+
+    - name: Deploy static site to S3 bucket
+      run: aws s3 sync ./public/ s3://${{ inputs.aws-s3-bucket-www }}/ --delete --acl public-read
+
+    - name: Invalidate CloudFront cache
+      run: aws cloudfront create-invalidation --distribution-id ${{ inputs.aws-cf-distribution-id }} --paths "/*"
