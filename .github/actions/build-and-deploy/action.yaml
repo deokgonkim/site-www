@@ -17,10 +17,13 @@ runs:
     - name: Build
       # remove --minify tag if you do not need it
       # docs: https://gohugo.io/hugo-pipes/minification/
+      shell: bash
       run: hugo --config ${{ inputs.config-file }}
 
     - name: Deploy static site to S3 bucket
+      shell: bash
       run: aws s3 sync ./public/ s3://${{ inputs.aws-s3-bucket-www }}/ --delete --acl public-read
 
     - name: Invalidate CloudFront cache
+      shell: bash
       run: aws cloudfront create-invalidation --distribution-id ${{ inputs.aws-cf-distribution-id }} --paths "/*"
