@@ -45,12 +45,12 @@ jobs:
       uses: './.github/actions/build-and-deploy'
       with:
         config-file: config.dgkim.net.toml
-        aws-s3-bucket-www: ${{ secrets.AWS_S3_BUCKET_WWW }}
-        aws-cf-distribution-id: ${{ secrets.AWS_CF_DISTRIBUTION_ID }}
+        aws-s3-bucket-www: ${{ secrets.AWS_S3_BUCKET_WWW2 }}
+        aws-cf-distribution-id: ${{ secrets.AWS_CF_DISTRIBUTION_ID2 }}
 
     - name: 'Deploying to deokgon.kim'
       uses: './.github/actions/build-and-deploy'
       with:
         config-file: config.deokgon.kim.toml
-        aws-s3-bucket-www: ${{ secrets.AWS_S3_BUCKET_WWW2 }}
-        aws-cf-distribution-id: ${{ secrets.AWS_CF_DISTRIBUTION_ID2 }}
+        aws-s3-bucket-www: ${{ secrets.AWS_S3_BUCKET_WWW }}
+        aws-cf-distribution-id: ${{ secrets.AWS_CF_DISTRIBUTION_ID }}
