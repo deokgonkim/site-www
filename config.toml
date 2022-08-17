@@ -1,8 +1,11 @@
 #baseURL = 'https://www.deokgon.kim/'
-baseURL = 'https://www.dgkim.net/'
+#baseURL = 'https://www.dgkim.net/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Deokgon Kim'
 theme = "geekblog"
+
+relativeurls = true
 
 paginate = 8
 pluralizeListTitles = false
