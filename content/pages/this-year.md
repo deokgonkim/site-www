@@ -5,7 +5,7 @@ date: 2022-08-05T08:11:16+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
-weight: 1
+weight: 10
 
 # List of authors of the post.
 authors:
@@ -30,8 +30,6 @@ geekblogAnchor: true
     - to reduce monthly cost of GCP CE e2-small + 20 GB Storage
     - since I don't write many articles, just static website is sufficient
     - added another static website for testing simple web pages. on AWS CloudFront (https://public.dgkim.net/)
-
-  - Aug 2022 - **Searching for new Job now**
 
   - Jul 2022 - studied OpenCV2 with python. Contour detection. just one script.
 

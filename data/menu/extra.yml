@@ -8,6 +8,9 @@ header:
     icon: gblog_github
     ref: "https://github.com/deokgonkim"
     external: true
+  - name: This year
+    icon: gblog_date
+    ref: "/pages/this-year"
 
 footer:
   - name: About
