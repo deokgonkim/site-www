@@ -18,3 +18,6 @@ footer:
     ref: "/about"
   - name: FSF Member
     ref: "/pages/about-fsf-member"
+  - name: Wish List
+    ref: "https://dgkimnet.notion.site/Wish-List-267ad7c065f14f6cacfe0eae21e3c969"
+    external: true
