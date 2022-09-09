@@ -38,7 +38,7 @@ geekblogAnchor: true
 
 ## Description
 
-While you are developing, it is convinient if you are using VPN to access AWS VPC.
+While you are developing, it is convenient if you are using VPN to access AWS VPC.
 
 But, some times you may experience some of container cannot access AWS Resources.
 
