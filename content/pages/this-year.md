@@ -22,6 +22,9 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
+  - Sep 2022 - Migrate mail `dgkim.net` from EC2 to Google Workspaces
+    - was : postfix + dovecot + sieve + horde, ejabberd
+
   - Aug 2022 - Migrate zabbix-server from EC2 to RPi4 (zabbix-server was running on AWS EC2 t3.small, was first running on X200)
     - to reduce monthly cost of t3.small + EBS 60 GB
     - zabbix is mainly for home network monitoring.
