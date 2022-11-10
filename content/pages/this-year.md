@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2022-11-08T01:54:00+09:00
+date: 2022-11-11T05:40:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -21,6 +21,8 @@ geekblogToC: 3
 # Add an anchor link to headlines.
 geekblogAnchor: true
 ---
+
+  - Nov 2022 - Started with Azure cloud
 
   - Sep, Oct, Nov 2022 - Backend, Frontend experience
     - Babel-node, React, TypeScript
