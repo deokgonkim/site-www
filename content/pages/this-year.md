@@ -22,6 +22,8 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
+  - Dec 2022 - Deploying Mobile App with `Fastlane`
+
   - Dec 2022 - Reading [`Pro Go`](https://link.springer.com/book/10.1007/978-1-4842-7355-5)
 
   - Nov 2022 - Started with Azure cloud
