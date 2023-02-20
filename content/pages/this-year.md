@@ -22,4 +22,6 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
-  - Jan 2022 - (NOT YET)
+  - Feb 2023 - Bought Lenovo Yoga 7i Pro 13IAP7
+
+  - Jan 2023 - QGIS, OSM, mapshaper.org
