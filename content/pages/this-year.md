@@ -22,6 +22,8 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
+  - May 2023 - Wemos mini D1(ESP8266) + DHT11(Temperature humidity sensor) + Home Assistant
+
   - Apr 2023 - Tested AWS Data Migration Service (RDS MariaDB 10.6 to Aurora MySQL 8.0)
 
   - Feb 2023 - Bought Lenovo Yoga 7i Pro 13IAP7
