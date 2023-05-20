@@ -22,7 +22,14 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
-  - May 2023 - Wemos D1 mini(ESP8266) + DHT11(Temperature humidity sensor) + Home Assistant
+  - May 2023 - IoT Project
+    - [Home Assistant](https://www.home-assistant.io/) : Running on Raspberry Pi 3
+      - Wemos D1 mini([ESP8266](https://en.wikipedia.org/wiki/ESP8266)) : Programmable WiFi controller (collects data or control switch/relay)
+        - [DHT11](https://www.google.com/search?q=DHT11) : Temperature humidity sensor
+      - tpLink P110 : Smart Plug provides measuring power consumption
+      - (will be added soon)
+        - Wemos D1 R1
+          - [Analog AC Current Sensor](https://wiki.dfrobot.com/Gravity_Analog_AC_Current_Sensor__SKU_SEN0211_)
 
   - Apr 2023 - Tested AWS Data Migration Service (RDS MariaDB 10.6 to Aurora MySQL 8.0)
 
