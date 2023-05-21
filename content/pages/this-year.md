@@ -25,7 +25,9 @@ geekblogAnchor: true
   - May 2023 - IoT Project
     - [Home Assistant](https://www.home-assistant.io/) : Running on Raspberry Pi 3
       - Wemos D1 mini([ESP8266](https://en.wikipedia.org/wiki/ESP8266)) : Programmable WiFi controller (collects data or control switch/relay)
-        - [DHT11](https://www.google.com/search?q=DHT11) : Temperature humidity sensor
+        - [DHT11](https://www.eleparts.co.kr/goods/view?no=4260368) : Temperature humidity sensor
+        - [DS18B20](https://www.eleparts.co.kr/goods/view?no=4260368) : Temperature sensor
+        - [Relay](https://www.eleparts.co.kr/goods/view?no=11951317) : Toggle switch
       - tpLink P110 : Smart Plug provides measuring power consumption
       - (will be added soon)
         - Wemos D1 R1
