@@ -28,6 +28,8 @@ geekblogAnchor: true
         - [DHT11](https://www.eleparts.co.kr/goods/view?no=4260368) : Temperature humidity sensor
         - [DS18B20](https://www.eleparts.co.kr/goods/view?no=4260368) : Temperature sensor
         - [Relay](https://www.eleparts.co.kr/goods/view?no=11951317) : Toggle switch
+        - [BMP180](https://www.eleparts.co.kr/goods/view?no=4260368) : Air pressure sensor
+        - [HC-SR501](https://www.eleparts.co.kr/goods/view?no=3227278) : Passive Infrared sensor
       - tpLink P110 : Smart Plug provides measuring power consumption
       - (will be added soon)
         - Wemos D1 R1
