@@ -99,11 +99,13 @@ Finally play youtube video, and check some `top` status.
   - Power plug type
     - packaged with `US` plug. not a big problem, I can easily buy `US to KR adapter` (it cost me 1,500 KRW)
   - Can it be powered by USB Power supply?
-    - pico pc is powered by USB-C connector, and power requirement is 12V and 2A.
-    - I don't know USB-A to USB-C will work or not. (I recently bought 8 port QC3.0 compatable USB power supply)
-    - or, USB-C to USB-C will work?
+    - ~~pico pc is powered by USB-C connector, and power requirement is 12V and 2A.~~
+    - ~~I don't know USB-A to USB-C will work or not. (I recently bought 8 port QC3.0 compatable USB power supply)~~
+    - ~~or, USB-C to USB-C will work?~~
+    - It doesn't support USB PD.
   - Audio via 3.5 mm jack is not working.
     - HDMI audio is working without any trouble.
     - I finally fixed by using `alsamixer` (https://superuser.com/questions/1354257/linux-ubuntu-alsa-issues-after-reboot-sound-is-turned-off)
   - The CPU FAN seems run in Full speed always.
     - the fan sound is very(?) noisy. (before I was using Raspberry Pi 4 without FAN, modern laptop's are also quiet on low usage)
+    - FAN speed cannot be controlled.
