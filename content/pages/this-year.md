@@ -22,6 +22,8 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
+  - Nov 2023 - [Turn off Raspberry Pi 1](/pages/posts/raspberry-pi-1/)
+
   - Sep 2023 - [NestJs](https://nestjs.com), [NestJS with serverless](https://dev.to/aws-builders/deploy-a-nestjs-api-to-aws-lambda-with-serverless-framework-4poo), [Sentry](https://www.sentry.io), Migrating `Firebase` project into `NestJS + Serverless`
 
   - Jun 2023 - `Bitwarden`
