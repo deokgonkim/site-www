@@ -22,7 +22,13 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
-  - Nov 2023 - [Turn off Raspberry Pi 1](/pages/posts/raspberry-pi-1/)
+  - Dec 2023
+    - Rectjs test project (reactjs, react-dom, react-router-dom, recoil, styled-component)
+    - Firebase Cloud Messaging + iOS PWA
+
+  - Nov 2023
+    - [Turn off Raspberry Pi 1](/pages/posts/raspberry-pi-1/)
+    - Beelink Mini-S
 
   - Sep 2023 - [NestJs](https://nestjs.com), [NestJS with serverless](https://dev.to/aws-builders/deploy-a-nestjs-api-to-aws-lambda-with-serverless-framework-4poo), [Sentry](https://www.sentry.io), Migrating `Firebase` project into `NestJS + Serverless`
 
