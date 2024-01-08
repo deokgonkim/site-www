@@ -13,8 +13,7 @@ authors:
 
 # Tags for this post.
 tags:
-  - "Open Source"
-  - "gadget"
+  - "Raspberry Pi"
 
 # Set how many table of contents levels to be showed on page.
 geekblogToC: 3
@@ -73,7 +72,7 @@ https://www.cooking-hacks.com/documentation/tutorials/raspberry-pi-to-arduino-sh
 
 And It works,
 
-<img class="alignnone size-full wp-image-1509" src="https://www.dgkim.net/wordpress/wp-content/uploads/2019/05/Photo-2019-05-31-00-05-52_0448-1.jpg" alt="">
+![Raspberyr Pi, IR Transceiver and DHT11](/uploads/2019-may-iot-project/Photo-2019-05-31-00-05-52_0448-1.jpg)
 
 And the codes,
 
