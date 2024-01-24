@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2023-12-31T15:00:00+09:00
+date: 2024-01-24T18:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -22,4 +22,5 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
-- not yet any
+- Jan 2024
+  - blender (for 3d printing modeling)
