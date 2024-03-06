@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2024-01-24T18:00:00+09:00
+date: 2024-03-06T18:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -21,6 +21,12 @@ geekblogToC: 3
 # Add an anchor link to headlines.
 geekblogAnchor: true
 ---
+
+- Mar 2024
+  - Tested [MUI](https://mui.com/)
+
+- Feb 2024
+  - Trivial development tests. (python image manipulation 누끼, exceljs, npm module publish)
 
 - Jan 2024
   - blender (for 3d printing modeling)
