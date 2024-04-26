@@ -22,6 +22,10 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
+- Apr 2024
+  - Started using [Githug Copilot](https://github.com/features/copilot)
+  - Started using [ChatGPT](https://chat.openai.com/)
+
 - Mar 2024
   - Tested Apple In-App Purchase
   - Tested [MUI](https://mui.com/)
