@@ -22,7 +22,14 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
+- May 2024
+  - Tested `typescript + react + styled-component + tsup + storybook`
+  - Tested `yarn berry`
+  - Tested `tensorflow lite` + `image classification`
+
 - Apr 2024
+  - Tested `AWS Amplify Previews`
+  - Tested `typedoc`
   - Started using [Github Copilot](https://github.com/features/copilot)
 
 - Mar 2024
