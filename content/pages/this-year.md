@@ -23,6 +23,7 @@ geekblogAnchor: true
 ---
 
 - May 2024
+  - Tested Open AI API. chat completion [openai-node](https://github.com/deokgonkim/example/tree/main/openai/openai-node)
   - Tested `typescript + react + styled-component + tsup + storybook`
   - Tested `yarn berry`
   - Tested `tensorflow lite` + `image classification`
