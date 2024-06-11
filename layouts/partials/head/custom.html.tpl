@@ -16,4 +16,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('js', new Date());
 
   gtag('config', '${GOOGLE_GA_ID}');
+
+  gtag('consent', 'update', {
+    analytics_storage: 'granted'
+  });
 </script>
