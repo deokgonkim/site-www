@@ -22,6 +22,9 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
+- Jun 2024
+  - Testing LLM with [langchain](https://www.langchain.com/) and eBook `Building Generative AI-Powered Apps`
+
 - May 2024
   - Tested Open AI API. chat completion [openai-node](https://github.com/deokgonkim/example/tree/main/openai/openai-node)
   - Tested `typescript + react + styled-component + tsup + storybook`
