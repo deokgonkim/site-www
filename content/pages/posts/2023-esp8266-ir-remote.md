@@ -13,7 +13,7 @@ authors:
 
 # Tags for this post.
 tags:
-  - esp8266
+  - "ESP8266"
 
 # Set how many table of contents levels to be showed on page.
 geekblogToC: 3
