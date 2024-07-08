@@ -34,7 +34,7 @@ geekblogAnchor: true
 - Apr 2024
   - Tested `AWS Amplify Previews`
   - Tested `typedoc`
-  - Started using [Github Copilot](https://github.com/features/copilot)
+  - Started using [Github Copilot](https://github.com/features/copilot) (2024/04/19)
 
 - Mar 2024
   - Started using [ChatGPT](https://chat.openai.com/)
