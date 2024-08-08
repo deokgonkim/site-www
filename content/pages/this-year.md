@@ -22,6 +22,9 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
+- Aug 2024
+  - Tested [Dynatrace](/pages/posts/2024-dynatrace/)
+
 - Jul 2024
   - Tested [ESP8266 with RC522 NFC Reader](/pages/posts/2024-esp8266-rc522/)
   - Tested slack bot that supports interaction [example/slack/dialog](https://github.com/deokgonkim/example/tree/main/slack/dialog)
