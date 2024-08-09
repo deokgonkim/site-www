@@ -23,6 +23,7 @@ geekblogAnchor: true
 ---
 
 - Aug 2024
+  - Tested [github notion integration](https://www.notion.so/integrations/github)
   - Tested [Dynatrace](/pages/posts/2024-dynatrace/)
 
 - Jul 2024
