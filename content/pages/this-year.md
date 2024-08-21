@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2024-07-11T15:00:00+09:00
+date: 2024-08-21T15:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -23,6 +23,8 @@ geekblogAnchor: true
 ---
 
 - Aug 2024
+  - Tested [k3s](https://k3s.io/)
+  - Tested [minikube](https://minikube.sigs.k8s.io/docs/start/)
   - Tested [github notion integration](https://www.notion.so/integrations/github)
   - Tested [Dynatrace](/pages/posts/2024-dynatrace/)
 
