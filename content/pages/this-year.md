@@ -23,6 +23,7 @@ geekblogAnchor: true
 ---
 
 - Aug 2024
+  - [Bought 3D Printer](/pages/posts/2024-3d-printer/)
   - Tested [k3s](https://k3s.io/)
   - Tested [minikube](https://minikube.sigs.k8s.io/docs/start/)
   - Tested [github notion integration](https://www.notion.so/integrations/github)
