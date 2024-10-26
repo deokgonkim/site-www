@@ -24,7 +24,7 @@ jobs:
         hugo-version: "0.92.2"
 
     - name: Pre-build
-      run: cd themes; sh geekblog.sh
+      run: cd themes; sh doit.sh; sh geekblog.sh
 
     - name: Pre-build phase2
       run: cd layouts; sh apply-custom.sh
