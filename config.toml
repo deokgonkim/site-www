@@ -146,7 +146,7 @@ enableRobotsTXT = true
   [params.footer]
     enable = true
     #  Custom content (HTML format is supported)
-    custom = ''
+    custom = '<a href="/about/">About</a> | <a href="/pages/about-fsf-member/">FSF Member</a>'
     #  whether to show Hugo and theme info
     hugo = true
     #  Hosted on (HTML format is supported)
@@ -223,7 +223,7 @@ enableRobotsTXT = true
 
   # Social config about the author
   [params.social]
-    GitHub = "deokonkim"
+    GitHub = "deokgonkim"
     Linkedin = ""
     Twitter = ""
     Instagram = ""
@@ -800,9 +800,22 @@ series = "series"
 
   [[menu.main]]
     identifier = "resume_notion"
-    pre = ""
-    post = ""
-    name = "Resume(Notion)"
+    pre = "👔"
+    post = "🔗"
+    name = "Resume"
     url = "https://dgkimnet.notion.site/Resume-58f455f0ab3d4c5c853f18420d2c57ba"
-    title = "Resume(Notion)"
-    weight = 3
+    title = "Resume"
+    external = true
+    weight = 4
+
+  [[menu.main]]
+    name = "🙏Wish List🔗"
+    url = "https://dgkimnet.notion.site/Wish-List-267ad7c065f14f6cacfe0eae21e3c969"
+    external = true
+    weight = 4
+
+  [[menu.main]]
+    name = "🛍️Things to Buy🔗"
+    url = "https://dgkimnet.notion.site/Things-to-Buy-some-day-435ceb4052ec4009b7926a86414a9042"
+    external = true
+    weight = 5
