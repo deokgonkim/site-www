@@ -22,6 +22,7 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: "0.123.7"
+        extended: true
 
     - name: Pre-build
       run: cd themes; sh doit.sh; sh geekblog.sh
