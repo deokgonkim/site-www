@@ -22,8 +22,6 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
-{{<toc>}}
-
 Here is how I prepare `python` projects.
 
 ## Assuming Python3 is already installed

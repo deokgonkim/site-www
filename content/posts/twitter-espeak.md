@@ -17,13 +17,11 @@ tags:
   - "linux"
 
 # Set how many table of contents levels to be showed on page.
-geekblogToC: 3
+# geekblogToC: 3
 
 # Add an anchor link to headlines.
-geekblogAnchor: true
+# geekblogAnchor: true
 ---
-
-{{< toc >}}
 
 What if my `tweets` can be heard
 

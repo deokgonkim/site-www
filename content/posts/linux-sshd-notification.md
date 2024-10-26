@@ -22,8 +22,6 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
-{{<toc>}}
-
 For security reasons, I created a script to notify me when someone(**ME**) access my server.
 
 I created `slack` notification script, I will not explain about *how to create slackbot* here. You can have a good time to configuring slack bot.

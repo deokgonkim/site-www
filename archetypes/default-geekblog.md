@@ -14,5 +14,11 @@ authors:
 # Tags for this post.
 tags:
   - "Open Source"
+
+# Set how many table of contents levels to be showed on page.
+geekblogToC: 3
+
+# Add an anchor link to headlines.
+geekblogAnchor: true
 ---
 
