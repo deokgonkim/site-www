@@ -23,21 +23,21 @@ geekblogAnchor: true
 ---
 
 - Oct 2024
-  - [Bought E-Ink display module](/pages/posts/2024-10-e-ink/)
+  - [Bought E-Ink display module](/posts/2024-10-e-ink/)
   - *Bought thermal receipt printer*
 
 - Sep 2024
-  - [3D Printed in Sep 2024](/pages/posts/2024-09-3d-printing/)
+  - [3D Printed in Sep 2024](/posts/2024-09-3d-printing/)
 
 - Aug 2024
-  - [Bought 3D Printer](/pages/posts/2024-3d-printer/)
+  - [Bought 3D Printer](/posts/2024-3d-printer/)
   - Tested [k3s](https://k3s.io/)
   - Tested [minikube](https://minikube.sigs.k8s.io/docs/start/)
   - Tested [github notion integration](https://www.notion.so/integrations/github)
-  - Tested [Dynatrace](/pages/posts/2024-dynatrace/)
+  - Tested [Dynatrace](/posts/2024-dynatrace/)
 
 - Jul 2024
-  - Tested [ESP8266 with RC522 NFC Reader](/pages/posts/2024-esp8266-rc522/)
+  - Tested [ESP8266 with RC522 NFC Reader](/posts/2024-esp8266-rc522/)
   - Tested slack bot that supports interaction [example/slack/dialog](https://github.com/deokgonkim/example/tree/main/slack/dialog)
 
 - Jun 2024

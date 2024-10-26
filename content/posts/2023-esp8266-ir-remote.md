@@ -24,7 +24,7 @@ geekblogAnchor: true
 
 ## ESP8266 + IR Receiver + IR Transmitter
 
-When I was using raspberry pi, I bought a IR transceiver module for Arduino. and used it for several years. [IR transceiver](/pages/posts/telegram-bot-try2/)
+When I was using raspberry pi, I bought a IR transceiver module for Arduino. and used it for several years. [IR transceiver](/posts/telegram-bot-try2/)
 
 ![Raspberyr Pi, IR Transceiver and DHT11](/uploads/2019-may-iot-project/Photo-2019-05-31-00-05-52_0448-1.jpg)
 

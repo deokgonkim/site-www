@@ -726,7 +726,7 @@ enableRobotsTXT = true
 # Permalinks config
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = "/posts/:filename"
 
 # Privacy config
 [privacy]

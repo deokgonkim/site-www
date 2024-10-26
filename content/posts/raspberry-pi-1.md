@@ -30,7 +30,7 @@ geekblogAnchor: true
 
 - At First : install raspbian. tested relay, and tested led on PiFace
 
-- As a IR Remote controller : [telegram-bot-try2](/pages/posts/telegram-bot-try2/), [2019 May IoT project](/pages/posts/2019-may-iot-project/)
+- As a IR Remote controller : [telegram-bot-try2](/posts/telegram-bot-try2/), [2019 May IoT project](/posts/2019-may-iot-project/)
 
 - As a Thermal sensor : finally just read DHT11 temperature/humidity and send it to the server.
   

@@ -22,7 +22,7 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
-As I previously posted, I made a WiFi AC remote controller project. see [telegram bot for HVAC](/pages/posts/telegram-bot-try2)
+As I previously posted, I made a WiFi AC remote controller project. see [telegram bot for HVAC](/posts/telegram-bot-try2)
 
 Today, I begin a new project to go further.
 

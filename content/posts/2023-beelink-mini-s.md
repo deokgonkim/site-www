@@ -24,7 +24,7 @@ geekblogAnchor: true
 
 ## Beelink Mini S
 
-I wasn't satisfied by [Pico PC](/pages/posts/2023-pico-pc) so, 
+I wasn't satisfied by [Pico PC](/posts/2023-pico-pc) so, 
 
 I bought another mini PC. the `Beelink Mini S`
 
