@@ -22,6 +22,9 @@ geekblogToC: 3
 geekblogAnchor: true
 ---
 
+- Nov 2024
+  - [Cloud Native Project](/posts/2024-nov-cloud-project/)
+
 - Oct 2024
   - [Bought E-Ink display module](/posts/2024-10-e-ink/)
   - *Bought thermal receipt printer*
