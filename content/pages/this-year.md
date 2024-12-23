@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2024-12-23T16:00:00+09:00
+date: 2024-12-23T17:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -23,6 +23,7 @@ geekblogAnchor: true
 ---
 
 - Dec 2024
+  - [Tested SnapCraft](https://github.com/deokgonkim/example/tree/main/snap/first)
   - [Tested GJS with gnome-builder](https://github.com/deokgonkim/example/tree/main/gnome/gjs/hello-gnome-builder)
   - [Tested flatpak](https://github.com/deokgonkim/example/tree/main/flatpak/hello)
 
