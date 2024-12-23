@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2024-10-21T22:00:00+09:00
+date: 2024-12-23T16:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -21,6 +21,10 @@ geekblogToC: 3
 # Add an anchor link to headlines.
 geekblogAnchor: true
 ---
+
+- Dec 2024
+  - [Tested GJS with gnome-builder](https://github.com/deokgonkim/example/tree/main/gnome/gjs/hello-gnome-builder)
+  - [Tested flatpak](https://github.com/deokgonkim/example/tree/main/flatpak/hello)
 
 - Nov 2024
   - [Cloud Native Project](/posts/2024-nov-cloud-project/)
