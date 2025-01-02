@@ -2,6 +2,7 @@
 
 ## 2025/01/02
 
+- chore: update github actions module versions
 - chore: to use `doit` theme for deokgon.kim
   - deprecated error
     ```
