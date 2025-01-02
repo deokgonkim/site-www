@@ -6,7 +6,7 @@ theme = "geekblog"
 
 relativeurls = true
 
-paginate = 8
+# paginate = 8
 pluralizeListTitles = false
 
 # Required to get well formatted code blocks

@@ -8,7 +8,7 @@ theme = "doit"
 
 relativeurls = true
 
-paginate = 8
+# paginate = 8
 pluralizeListTitles = false
 
 # Required to get well formatted code blocks
@@ -279,7 +279,7 @@ enableRobotsTXT = true
     Googlescholar = ""
     Researchgate = ""
     Mastodon = "@deokgonkimdgkim"
-    Bluesky = "deokgonkimdgkim"
+    Bluesky = "deokgonkimdgkim.bsky.social"
     Thingiverse = ""
     Devto = ""
     Gitea = ""
