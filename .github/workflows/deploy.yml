@@ -52,6 +52,7 @@ jobs:
     - name: 'Deploying to deokgon.kim'
       uses: './.github/actions/build-and-deploy'
       with:
-        config-file: config.deokgon.kim.toml
+        # config-file: config.deokgon.kim.toml
+        config-file: config.dgkim.net.toml
         aws-s3-bucket-www: ${{ secrets.AWS_S3_BUCKET_WWW }}
         aws-cf-distribution-id: ${{ secrets.AWS_CF_DISTRIBUTION_ID }}
