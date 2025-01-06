@@ -18,4 +18,5 @@ tags:
 ---
 
 - Jan 2025
+  - Subscribed e-SIM (2025/01/05)
   - [Tested gRPC](https://github.com/deokgonkim/example/tree/main/helloworld/grpc)
