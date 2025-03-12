@@ -17,6 +17,9 @@ tags:
 
 ---
 
+- Feb 2025
+  - Reading [Rust Book](https://doc.rust-lang.org/book/)
+
 - Jan 2025
   - [Tested openai with stream](https://github.com/deokgonkim/example/tree/main/openai/streaming), [with websocket](https://github.com/deokgonkim/example/tree/main/openai/streaming-websocket)
   - Subscribed e-SIM (2025/01/05)
