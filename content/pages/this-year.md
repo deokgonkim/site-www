@@ -17,6 +17,15 @@ tags:
 
 ---
 
+- Mar 2025
+  - [My first NextJS site](https://next.dgkim.net/)
+  - Fountain Pen
+    - Jinhao 126 (Mar 2025)
+    - Hongdian 517S (Feb 2025)
+    - Parker Jotter (Feb 2025)
+  - [Tested PN532 NFC Tag Writing](https://github.com/deokgonkim/example/blob/main/arduino/pn532_url/pn532_url.ino)
+  - [Tested gnome dbus notification](https://github.com/deokgonkim/example/blob/main/gnome/gjs/dbus-test/notification-and-launch.gjs)
+
 - Feb 2025
   - Reading [Rust Book](https://doc.rust-lang.org/book/)
 
