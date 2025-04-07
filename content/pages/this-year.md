@@ -17,6 +17,10 @@ tags:
 
 ---
 
+- Apr 2025
+  - [Tested first Model Context Protocol server](https://github.com/deokgonkim/example/tree/main/mcp/first)
+  - [Tested first chrome-extension](https://github.com/deokgonkim/example/tree/main/chrome-extension/wanted-filter-extension)
+
 - Mar 2025
   - [My first NextJS site](https://next.dgkim.net/)
   - Fountain Pen
