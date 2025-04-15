@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2025-01-08T14:20:00+09:00
+date: 2025-04-15T10:20:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -18,6 +18,7 @@ tags:
 ---
 
 - Apr 2025
+  - My first firefox extension published [Wanted Position Highlighter](https://addons.mozilla.org/en-US/firefox/addon/wanted-position-highlighter/) [Github](https://github.com/dgkimnet/wanted-filter-extension)
   - [Tested first Model Context Protocol server](https://github.com/deokgonkim/example/tree/main/mcp/first)
   - [Tested first chrome-extension](https://github.com/deokgonkim/example/tree/main/chrome-extension/wanted-filter-extension)
 
