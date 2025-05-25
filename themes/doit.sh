@@ -5,7 +5,7 @@ mkdir doit
 git clone --depth 1 https://github.com/HEIGE-PCloud/DoIt ./doit
 
 # patch to use custom.html
-file="doit/layouts/_default/baseof.html"
+file="doit/layouts/baseof.html"
 line_to_add='  {{ partial "head/custom" . }}'
 line_number=25
 
