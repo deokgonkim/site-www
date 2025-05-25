@@ -17,6 +17,13 @@ tags:
 
 ---
 
+- May 2025
+  - Tested
+    - [ollama](https://ollama.com/)
+    - [NotebookLM](https://notebooklm.google.com/) [My Resume audio overview](https://notebooklm.google.com/notebook/18e617b5-2b81-4ae0-91a5-fcd91c61d73b/audio)
+    - [web3 ETH getBalance](https://github.com/deokgonkim/example/tree/main/web3/first-node)
+    - [Apple CoreML `MobileNetV2`](https://github.com/deokgonkim/example/tree/main/apple/coreml/first-coreml)
+
 - Apr 2025
   - My first chrome extension published [Wanted Position Highlighter](https://chromewebstore.google.com/detail/wanted-position-highlight/kcmcgpefhbkkgimhdaffeimikhcmieon) [Github](https://github.com/dgkimnet/wanted-filter-extension)
   - My first firefox extension published [Wanted Position Highlighter](https://addons.mozilla.org/en-US/firefox/addon/wanted-position-highlighter/) [Github](https://github.com/dgkimnet/wanted-filter-extension)
