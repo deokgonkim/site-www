@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2025-06-27T18:30:00+09:00
+date: 2025-10-02T03:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -16,6 +16,20 @@ tags:
   - "year"
 
 ---
+
+- Sep 2025
+  - Deployed AWS Lambda function to track stock price [stock-monitor](https://github.com/deokgonkim/stock-monitor)
+  - Tested [Auth0](https://auth0.com/) 
+  - Tested [TailwindCSS](https://tailwindcss.com/) + [shadcn](https://ui.shadcn.com/)
+- Aug 2025
+  - Bought TV Tuner (old tv wasted) [ali tv tuner](https://ko.aliexpress.com/item/1005009726669809.html)
+  - experience coupang helper (day laborer)
+  - Replaced System76 Laptop Battery (https://tech-docs.system76.com/models/lemp10/repairs.html#replacing-the-main-battery)
+
+- Jul 2025
+  - Bought standing desk, monitor arm
+  - 3d printing stuff (funnels, stand for fountainpen, several hooks, bought another PLA filament)
+  - bought fountainpen (platinum starlet, jinhao 80)
 
 - Jun 2025
   - Tasting coffee with Moka Pot (since May 24)
