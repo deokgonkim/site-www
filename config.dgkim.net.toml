@@ -726,15 +726,16 @@ enableRobotsTXT = true
 # Permalinks config
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = "/posts/:filename"
+  # posts = "/posts/:filename"
+  posts = "/posts/:contentbasename"
 
 # Privacy config
 [privacy]
   #  privacy of the Google Analytics (replaced by params.analytics.google)
   [privacy.googleAnalytics]
     # ...
-  [privacy.twitter]
-    enableDNT = true
+  # [privacy.twitter]
+  #   enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
 
