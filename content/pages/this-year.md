@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2025-10-02T03:00:00+09:00
+date: 2025-11-02T18:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -17,6 +17,10 @@ tags:
 
 ---
 
+- Nov 2025
+  - Create a new blog [places.dgkim.net](https://places.dgkim.net/)
+- Oct 2025
+  - Create a new blog [cafe.frontde.stie](https://cafe.frontde.site/)
 - Sep 2025
   - Deployed AWS Lambda function to track stock price [stock-monitor](https://github.com/deokgonkim/stock-monitor)
   - Tested [Auth0](https://auth0.com/) 
