@@ -19,6 +19,8 @@ tags:
 
 - Nov 2025
   - Create a new blog [priny.frontde.site](https://priny.frontde.site/)
+  - Tested [GeminiCLI](https://geminicli.com/)
+  - Tested [ComfyUI](https://www.comfy.org/)
   - Create a new blog [places.dgkim.net](https://places.dgkim.net/)
 - Oct 2025
   - Create a new blog [cafe.frontde.stie](https://cafe.frontde.site/)
