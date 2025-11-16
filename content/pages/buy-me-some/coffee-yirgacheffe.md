@@ -1,8 +1,8 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "콩볶는사람들 예가체프 G2 원두"
-date: 2025-11-17T02:35:35+09:00
-draft: true
+date: 2025-11-17T02:35:00+09:00
+draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
 weight: 10
