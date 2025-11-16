@@ -802,9 +802,10 @@ series = "series"
   [[menu.main]]
     identifier = "buymesome"
     pre = ""
-    post = ""
+    post = "🔗"
     name = "Buy Me Some"
-    url = "/buy-me-some/"
+    # url = "/pages/buy-me-some/"
+    url = "https://dgkimnet.notion.site/Buy-Me-Some-2adfa5f9d74380e5a798f163cd3ef1a5"
     title = ""
     weight = 3
 
