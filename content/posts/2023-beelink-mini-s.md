@@ -20,6 +20,8 @@ geekblogToC: 3
 
 # Add an anchor link to headlines.
 geekblogAnchor: true
+
+featuredImage: 'https://image.dgkim.net/thumbnail/375/2023-beelink-mini-s/IMG_5630.jpg'
 ---
 
 ## Beelink Mini S

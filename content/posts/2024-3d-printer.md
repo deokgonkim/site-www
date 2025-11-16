@@ -20,6 +20,8 @@ geekblogToC: 3
 
 # Add an anchor link to headlines.
 geekblogAnchor: true
+
+featuredImage: '/uploads/2024-3d-printer/IMG_6747_resized.jpg'
 ---
 
 ## Bought 3D Printer
@@ -29,7 +31,7 @@ I just bought 3d printer from aliexpress
 ### Unboxing
 
 ![box1](/uploads/2024-3d-printer/IMG_6729_resized.jpg)
-
+<!--more-->
 ![box2](/uploads/2024-3d-printer/IMG_6730_resized.jpg)
 
 ![box3](/uploads/2024-3d-printer/IMG_6731_resized.jpg)

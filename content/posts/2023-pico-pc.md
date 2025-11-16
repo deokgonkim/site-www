@@ -20,6 +20,8 @@ geekblogToC: 3
 
 # Add an anchor link to headlines.
 geekblogAnchor: true
+
+featuredImage: 'https://image.dgkim.net/thumbnail/375/2023-pico-pc/pico-pc-box-01.jpg'
 ---
 
 ## Bought Pico PC
