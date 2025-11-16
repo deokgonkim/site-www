@@ -800,6 +800,15 @@ series = "series"
     weight = 3
 
   [[menu.main]]
+    identifier = "buymesome"
+    pre = ""
+    post = ""
+    name = "Buy Me Some"
+    url = "/buy-me-some/"
+    title = ""
+    weight = 3
+
+  [[menu.main]]
     identifier = "resume_notion"
     pre = "👔"
     post = "🔗"
