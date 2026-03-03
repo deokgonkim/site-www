@@ -26,6 +26,12 @@ geekblogAnchor: true
 
 # GnuPG 사용하기
 
+## Create a new key
+
+```bash
+gpg --full-generate-key
+```
+
 ## export
 
 내보내기
@@ -41,6 +47,9 @@ gpg -a --export-secret-keys >myprivatekeys.asc
 
 # --export-owntrust : 모르겠다.
 gpg --export-ownertrust >otrust.txt
+
+# --gen-revoke : 키 폐기용 인증서 파일을 생성한다.
+gpg --output revoke.asc --gen-revoke dgkim@ossfsc.net
 ```
 
 ## import
