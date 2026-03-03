@@ -810,6 +810,15 @@ series = "series"
     weight = 4
 
   [[menu.main]]
+    identifier = "mytechstack"
+    pre = ""
+    post = "🔗"
+    name = "My Tech Stack"
+    url = "https://public.dgkim.net/my-tech-stack/"
+    title = ""
+    weight = 5
+
+  [[menu.main]]
     name = "🙏Wish List🔗"
     url = "https://dgkimnet.notion.site/Wish-List-267ad7c065f14f6cacfe0eae21e3c969"
     external = true

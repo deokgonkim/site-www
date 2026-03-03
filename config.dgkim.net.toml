@@ -800,16 +800,6 @@ series = "series"
     weight = 3
 
   [[menu.main]]
-    identifier = "buymesome"
-    pre = ""
-    post = "🔗"
-    name = "Buy Me Some"
-    # url = "/pages/buy-me-some/"
-    url = "https://dgkimnet.notion.site/Buy-Me-Some-2adfa5f9d74380e5a798f163cd3ef1a5"
-    title = ""
-    weight = 3
-
-  [[menu.main]]
     identifier = "resume_notion"
     pre = "👔"
     post = "🔗"
@@ -826,16 +816,26 @@ series = "series"
     name = "My Tech Stack"
     url = "https://public.dgkim.net/my-tech-stack/"
     title = ""
-    weight = 3
+    weight = 5
 
   [[menu.main]]
     name = "🙏Wish List🔗"
     url = "https://dgkimnet.notion.site/Wish-List-267ad7c065f14f6cacfe0eae21e3c969"
     external = true
-    weight = 4
+    weight = 5
+
+  #[[menu.main]]
+  #  name = "🛍️Things to Buy🔗"
+  #  url = "https://dgkimnet.notion.site/Things-to-Buy-some-day-435ceb4052ec4009b7926a86414a9042"
+  #  external = true
+  #  weight = 5
 
   [[menu.main]]
-    name = "🛍️Things to Buy🔗"
-    url = "https://dgkimnet.notion.site/Things-to-Buy-some-day-435ceb4052ec4009b7926a86414a9042"
-    external = true
-    weight = 5
+    identifier = "buymesome"
+    pre = ""
+    post = "🔗"
+    name = "Buy Me Some"
+    # url = "/pages/buy-me-some/"
+    url = "https://dgkimnet.notion.site/Buy-Me-Some-2adfa5f9d74380e5a798f163cd3ef1a5"
+    title = ""
+    weight = 6
