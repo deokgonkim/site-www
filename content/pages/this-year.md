@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2026-03-03T16:00:00+09:00
+date: 2026-03-26T15:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -16,6 +16,13 @@ tags:
   - "year"
 
 ---
+
+- Mar 2026
+  - Update [public.dgkim.net](https://public.dgkim.net/linux-software/) with [Quartz](https://quartz.jzhao.xyz/)
+  - Tested [Copilot CLI](https://github.com/features/copilot/cli)
+  - Tested [opencode](https://opencode.ai/)
+    - with `Big Pickle` model and with `qwen2.5-coder-7b-instruct-mlx` on `ollama` running on `M1 Pro Macbook`
+  - Project [bookmark-dash](https://github.com/dgkimnet/bookmark-dash)
 
 - Feb 2026
   - Tested [lmstudio](https://lmstudio.ai/)
