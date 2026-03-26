@@ -21,7 +21,7 @@ tags:
   - Update [public.dgkim.net](https://public.dgkim.net/linux-software/) with [Quartz](https://quartz.jzhao.xyz/)
   - Tested [Copilot CLI](https://github.com/features/copilot/cli)
   - Tested [opencode](https://opencode.ai/)
-    - with `Big Pickle` model and with `qwen2.5-coder-7b-instruct-mlx` on `ollama` running on `M1 Pro Macbook`
+    - with `Big Pickle` model and with `qwen2.5-coder-7b-instruct-mlx` on `LM Studio` running on `M1 Pro Macbook`
   - Project [bookmark-dash](https://github.com/dgkimnet/bookmark-dash)
 
 - Feb 2026
