@@ -824,6 +824,15 @@ series = "series"
     external = true
     weight = 5
 
+  [[menu.main]]
+    identifier = "my-sites"
+    pre = "✨"
+    post = ""
+    name = "My Sites"
+    url = "/pages/my-sites/"
+    title = ""
+    weight = 6
+
   #[[menu.main]]
   #  name = "🛍️Things to Buy🔗"
   #  url = "https://dgkimnet.notion.site/Things-to-Buy-some-day-435ceb4052ec4009b7926a86414a9042"
