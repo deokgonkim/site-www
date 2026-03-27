@@ -22,7 +22,7 @@ authors:
 - [places.dgkim.net](https://places.dgkim.net) [^places-note]
 - [priny.dgkim.net](https://priny.dgkim.net) [^priny-note]
 - [public.dgkim.net](https://public.dgkim.net)
-  - [guest](https://public.dgkim.net/guest/), [shop](https://public.dgkim.net/shop/) [^shop-note]
+  - [guest](https://public.dgkim.net/guest/), [shop](https://public.dgkim.net/shop/) [^shop-note] [shop-print](https://public.dgkim.net/shop-print/) [^shop-print-note] 
   - [Linux Software](https://public.dgkim.net/linux-software/), [Mac Software](https://public.dgkim.net/mac-software/) [^quartz-note]
 - [rmovie.dgkim.net](https://rmovie.dgkim.net) [^rmovie-note]
 
@@ -38,6 +38,7 @@ authors:
 [^places-note]: [Hugo](https://gohugo.io/)
 [^priny-note]: [Hugo](https://gohugo.io/)
 [^shop-note]: [related post](/posts/2024-nov-cloud-project/), [React](https://react.dev/), [MUI](https://mui.com/), [AWS Lambda](https://aws.amazon.com/lambda/), [AWS Cognito](https://aws.amazon.com/cognito/), [Telegram API](https://www.npmjs.com/package/node-telegram-bot-api), [Twilio for WhatsApp](https://www.npmjs.com/package/twilio), [PWA](https://web.dev/explore/progressive-web-apps), [Web FCM](https://firebase.google.com/docs/cloud-messaging), [Websocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API), [OpenAI API](https://openai.com/api/)
+[^shop-print-note]: [escpos](https://github.com/python-escpos/python-escpos), [tkinter](https://docs.python.org/3/library/tkinter.html), [pyinstaller](https://pypi.org/project/pyinstaller/), [websocket-client](https://pypi.org/project/websocket-client/)
 [^quartz-note]: [Quartz](https://quartz.jzhao.xyz/), [Obsidian](https://obsidian.md/)
 [^rmovie-note]: [AWS Lambda](https://aws.amazon.com/lambda/)
 [^send-to-linux-note]: [Gnome Extension](https://extensions.gnome.org/), [Go lang](https://go.dev/), [Flatpak](https://flatpak.org/)
