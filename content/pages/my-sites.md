@@ -37,7 +37,7 @@ authors:
 [^flea-note]: [Turborepo](https://turbo.build/repo), [NextJs](https://nextjs.org/), [AWS Lambda](https://aws.amazon.com/lambda/)
 [^places-note]: [Hugo](https://gohugo.io/)
 [^priny-note]: [Hugo](https://gohugo.io/)
-[^shop-note]: [React](https://react.dev/)
+[^shop-note]: [related post](/posts/2024-nov-cloud-project/), [React](https://react.dev/), [MUI](https://mui.com/), [AWS Lambda](https://aws.amazon.com/lambda/), [AWS Cognito](https://aws.amazon.com/cognito/), [Telegram API](https://www.npmjs.com/package/node-telegram-bot-api), [Twilio for WhatsApp](https://www.npmjs.com/package/twilio), [PWA](https://web.dev/explore/progressive-web-apps), [Web FCM](https://firebase.google.com/docs/cloud-messaging), [Websocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API), [OpenAI API](https://openai.com/api/)
 [^quartz-note]: [Quartz](https://quartz.jzhao.xyz/), [Obsidian](https://obsidian.md/)
 [^rmovie-note]: [AWS Lambda](https://aws.amazon.com/lambda/)
 [^send-to-linux-note]: [Gnome Extension](https://extensions.gnome.org/), [Go lang](https://go.dev/), [Flatpak](https://flatpak.org/)
