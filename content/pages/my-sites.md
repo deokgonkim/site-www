@@ -17,6 +17,9 @@ authors:
 ## My Sites
 
 - [bd.dgkim.net](https://bd.dgkim.net) [^bd-note]
+- ~~doc.dgkim.net~~
+  - ~~[react component typedoc](https://doc.dgkim.net/example-component-installable/)~~
+  - ~~[react component storybook](https://doc.dgkim.net/example-component-installable-sb/)~~
 - [flea.dgkim.net](https://flea.dgkim.net) [^flea-note]
 - ~~[next.dgkim.net](https://next.dgkim.net)~~
 - [places.dgkim.net](https://places.dgkim.net) [^places-note]
