@@ -49,6 +49,11 @@ I thoroughly visited the web site, and checked for my requirements.
 - [icedrive](#icedrive) *mount*
 - [tresorit](#tresorit) *sh installation*
 - [Internxt](#internxt) *VPN and other apps* *only Annual payment*
+---
+- [rclone](#rclone) *Tried. unreliable*
+- [seafile](#seafile) *Community Edition vs Professional Edition*
+- [insync](#insync) *One-time payment*
+- [Mountain Duck](#mountainduck) *No linux Client*
 
 ---
 
@@ -132,6 +137,24 @@ I thoroughly visited the web site, and checked for my requirements.
 - Linux : `deb`
 - Not only Cloud Storage provider, but also provides vpn, antivirus, cleaner, meet services.
 - I do want **only storage** provider. not vpn.
+
+## Other
+
+### rclone
+- OpenSource
+- Tried `rclone bisync` with custom wrapper script
+  - Takes too much time
+  - Custom script may be inconvinient and unreliable
+
+### seafile
+- Self-hosting
+- **Community Edition vs Professional Edition**
+
+### insync
+- **One-time payment 39.99 USD**
+
+### MountainDuck
+- **No Linux Client**
 
 ## Is there a farely good solution for me?
 
