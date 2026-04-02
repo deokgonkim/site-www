@@ -47,7 +47,7 @@ I thoroughly visited the web site, and checked for my requirements.
 - [mega](#mega) *VPN and other apps*
 - [koofr](#koofr) *targz installation*
 - [icedrive](#icedrive) *mount*
-- [tresorit](#tresoft) *sh installation*
+- [tresorit](#tresorit) *sh installation*
 - [Internxt](#internxt) *VPN and other apps* *only Annual payment*
 
 ---
