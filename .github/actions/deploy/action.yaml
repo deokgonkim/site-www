@@ -1,9 +1,6 @@
-name: build-and-deploy
-description: Builds and Deploys Hugo Site
+name: deploy
+description: Deploys Aws Site
 inputs:
-  config-file:
-    description: Hugo config
-    required: true
   aws-s3-bucket-www:
     description: AWS S3 Deployment Bucket Name
     required: true
@@ -14,12 +11,6 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - name: Build
-      # remove --minify tag if you do not need it
-      # docs: https://gohugo.io/hugo-pipes/minification/
-      shell: bash
-      run: hugo --config ${{ inputs.config-file }}
-
     - name: Deploy static site to S3 bucket
       shell: bash
       run: aws s3 sync ./public/ s3://${{ inputs.aws-s3-bucket-www }}/ --delete --acl public-read

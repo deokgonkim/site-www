@@ -1,9 +1,9 @@
-name: Build and deploy
+name: Build only
 
 on:
   push:
     branches:
-      - main
+      - '*'
 
 env:
   GOOGLE_ADS_ID: ${{ secrets.GOOGLE_ADS_ID }}
@@ -21,7 +21,7 @@ jobs:
     - name: Setup hugo
       uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: "0.147.5"
+        hugo-version: "0.159.1"
         extended: true
 
     - name: Pre-build
@@ -54,13 +54,16 @@ jobs:
         config-file: config.dgkim.net.toml
 
     - name: 'Deploying to dgkim.net'
-      uses: './.github/actions/deploy'
+      uses: './.github/actions/build-and-deploy'
       with:
+        config-file: config.dgkim.net.toml
         aws-s3-bucket-www: ${{ secrets.AWS_S3_BUCKET_WWW2 }}
         aws-cf-distribution-id: ${{ secrets.AWS_CF_DISTRIBUTION_ID2 }}
 
     - name: 'Deploying to deokgon.kim'
-      uses: './.github/actions/deploy'
+      uses: './.github/actions/build-and-deploy'
       with:
+        # config-file: config.deokgon.kim.toml
+        config-file: config.dgkim.net.toml
         aws-s3-bucket-www: ${{ secrets.AWS_S3_BUCKET_WWW }}
         aws-cf-distribution-id: ${{ secrets.AWS_CF_DISTRIBUTION_ID }}

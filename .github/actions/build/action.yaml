@@ -1,0 +1,15 @@
+name: build
+description: Deploys hugo Site
+inputs:
+  config-file:
+    description: Hugo config
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Build
+      # remove --minify tag if you do not need it
+      # docs: https://gohugo.io/hugo-pipes/minification/
+      shell: bash
+      run: hugo --config ${{ inputs.config-file }}
