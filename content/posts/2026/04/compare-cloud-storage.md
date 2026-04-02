@@ -85,7 +85,7 @@ I thoroughly visited the web site, and checked for my requirements.
 
 ### Dropbox
 - https://www.dropbox.com/
-- Subscription: 9.99 USD / month
+- Subscription: 9.99 USD / month (billed annually) 11.99 USD / month (billed monthly)
   - `Plus`: For 1 person, 2TB Storage
   - `Professional`: For 1 person, 3TB Storage
   - `Standard`: 15 USD/user/month, 5TB Storage per team (minimum 3 user)
@@ -161,5 +161,23 @@ I thoroughly visited the web site, and checked for my requirements.
 I am considering to use `Dropbox`  
 What I am hasitating is that I have only installed software with `free` plan without storing meaningful files. and I deleted account a month ago.  
 So, is it really worth to **re**subscribe paid plan.
+
+## (2026-04-02 update) dropbox first impression
+
+1. Seamless installation failed on one linux machine  
+  `libglapi-mesa`: it must be installed, but the installer didn't handle it properly. I manually installed. but after installation, dropbox app still not working.  
+  It shows still 'indexing'(using command `dropbox status`). I tried command `dropbox update` and restarted dropbox. It fixed problem.
+
+2. On Mac OS: There was no `Dropbox` folder in **user's home**.
+  I found it in `Preferences` and it says it is located at `/Users/dgkim/Library/CloudStorage/Dropbox`.  
+  It may or may not cause some problems.
+
+3. On Mac OS: Screen capture auto archiving. It may helpful.
+
+4. On iPhone: like other many iOS apps, the `on boarding process` may be confusing.
+
+5. Synchronization Experience: It seems ok. I leave it open for several devices. and It shows near-real-time synchronization. It seems fine!
+
+6. `dropbox` cli: I first found in Linux os. It must be helpful. **THANK YOU! DROPBOX!** but. the `dropbox` command is not available on Mac OS.
 
 [^memory-note]: All this post is caused by this. This is my critical reason for switching cloud storage
