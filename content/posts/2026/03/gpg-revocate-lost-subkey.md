@@ -5,7 +5,7 @@ date: 2026-03-03T17:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
-weight: 10
+weight: 20
 
 # List of authors of the post.
 authors:
@@ -13,8 +13,7 @@ authors:
 
 # Tags for this post.
 tags:
-  - "GPG"
-  - "PGP"
+  - gpg
 ---
 
 ## 📌 상황 요약

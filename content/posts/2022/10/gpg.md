@@ -13,9 +13,7 @@ authors:
 
 # Tags for this post.
 tags:
-  - "Open Source"
-  - "GPG"
-  - "PGP"
+  - gpg
 
 # Set how many table of contents levels to be showed on page.
 geekblogToC: 3
@@ -71,7 +69,8 @@ gpg --import-ownertrust otrust.txt
 
 ## ps
 
-오래전에 gpg 사용방법들을 txt 파일에 저장해 두었던 것을, hugo 통해서 웹사이트에 백업합니다. 요즘은, gpg direct로도 쓰지만, `pass` 사용하면서 gpg를 필수 사용하고 있습니다.
+요즘은, gpg direct로도 쓰지만, `pass` 사용하면서 gpg를 필수 사용하고 있습니다.
 추가로, gpg 키를 yubikey에 저장할 수도 있어서, 참 좋은 생각이라 생각합니다...
 
-단, 백업은 알아서들 잘 하셔서 사용하시기 바랍니다.
+[GpgBackup](/posts/gpg-backup/)
+
