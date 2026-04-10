@@ -53,36 +53,14 @@ jobs:
         path: public/
         retention-days: 7
 
-  deploy:
+  deploy-dgkim-net:
     needs: build
     if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    environment: aws
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+    uses: ./.github/workflows/deploy-dgkim-net.yml
+    secrets: inherit
 
-    - name: Download build artifact
-      uses: actions/download-artifact@v4
-      with:
-        name: public
-        path: public/
-
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v4
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: ${{ secrets.AWS_REGION }}
-
-    - name: 'Deploying to dgkim.net'
-      uses: './.github/actions/deploy'
-      with:
-        aws-s3-bucket-www: ${{ secrets.AWS_S3_BUCKET_WWW2 }}
-        aws-cf-distribution-id: ${{ secrets.AWS_CF_DISTRIBUTION_ID2 }}
-
-    - name: 'Deploying to deokgon.kim'
-      uses: './.github/actions/deploy'
-      with:
-        aws-s3-bucket-www: ${{ secrets.AWS_S3_BUCKET_WWW }}
-        aws-cf-distribution-id: ${{ secrets.AWS_CF_DISTRIBUTION_ID }}
+  deploy-deokgon-kim:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/deploy-deokgon-kim.yml
+    secrets: inherit
