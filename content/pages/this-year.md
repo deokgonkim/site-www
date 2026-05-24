@@ -19,7 +19,7 @@ tags:
 
 ### May 2026
 
-- First experience of `Proxmox VE`
+- First [experience](/posts/proxmox-first-impression/) of `Proxmox VE`
 - Erased my `XDO Pico PC` (removed windows 11, installed `Proxmox VE`) : To test `k3s` on `VM`
 - Erased my `Lenovo Yoga Slim7 carbon(13iap7)` (removed ubuntu, installed windows 10) : sell it or not? I don't know.
 - Created my separate github [dgkim-lab](https://github.com/dgkim-lab) for experimental projects

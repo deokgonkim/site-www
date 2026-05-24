@@ -115,7 +115,7 @@ qm set 9000 --serial0 socket --vga serial0
 
 ## 7. Configure Cloud-Init Defaults
 
-## SSH Key Authentication
+### SSH Key Authentication
 
 ```shell
 # Here I create this script as 07-user.sh
@@ -128,10 +128,6 @@ qm set 9000 --ipconfig0 ip=dhcp
 # the password can be used on `console` instead
 qm set 9000 --cipassword 'mypassword'
 ```
-
----
-
-## 8. Convert VM to template
 
 ### (Recommended) Install qemu-guest-agent
 (*I haven't tested yet, but suggested procedure*)
@@ -157,7 +153,9 @@ Benefits:
 - Better shutdown/reboot handling
 - Improved monitoring
 
-### Convert VM to Template
+---
+
+## 8. Convert VM to template
 
 ```shell
 # Here I create this script as 08-template.sh
