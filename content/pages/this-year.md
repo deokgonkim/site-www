@@ -19,6 +19,9 @@ tags:
 
 ### May 2026
 
+- First experience of `Proxmox VE`
+- Erased my `XDO Pico PC` (removed windows 11, installed `Proxmox VE`) : To test `k3s` on `VM`
+- Erased my `Lenovo Yoga Slim7 carbon(13iap7)` (removed ubuntu, installed windows 10) : sell it or not? I don't know.
 - Created my separate github [dgkim-lab](https://github.com/dgkim-lab) for experimental projects
   - originally most of experiment is done in single repository [example](https://github.com/dgkim-lab/example)
 - Tested [K3s](https://k3s.io/) + [argocd](https://argo-cd.readthedocs.io/)
