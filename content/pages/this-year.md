@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2026-05-17T14:00:00+09:00
+date: 2026-07-05T07:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -16,6 +16,26 @@ tags:
   - "year"
 
 ---
+
+### Jul 2026
+
+- Deployed new [rmovie](https://rmovie.k3s.dgkim.net/)
+
+### Jun 2026
+
+- Tested and Deployed [K3s](https://k3s.io/) on My new Home server
+  - `Proxmox VE`
+  - `OpenLDAP` as lxc container
+  - `Postgresql` as lxc container
+  - `K3s` as VM
+  - `argocd`, `cert-manager`, `istio`, `kiali`, `jaeger`, `promethus`, `keycloak`, `argocd-rollouts`, ...
+  - total 45 pods
+- Bough new my new home server `Lenovo M720q`
+- Tested `keycloak` with `aws iam identity center` and `google workspace`
+- Tested `k8s` ecosystem
+  - `istio` + `kiali` : [kube-hello-kiali](https://github.com/dgkim-lab/kube-hello-kiali) to monitor internal communication between pods
+  - `jaeger` : for tracing
+  - `grafana` : just installed.
 
 ### May 2026
 
