@@ -19,7 +19,7 @@ tags:
 
 ### Jul 2026
 
-- Deployed new [rmovie](https://rmovie.k3s.dgkim.net/)
+- Deployed new [rmovie](https://github.com/dgkim-lab/rmovie)
 
 ### Jun 2026
 
