@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "Tech News 2026"
-date: 2026-04-02T13:30:00+09:00
+date: 2026-08-03T17:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -15,6 +15,22 @@ authors:
 tags:
   - "year"
 ---
+
+### Jul 2026
+
+- Kimi K3
+- [Introduced GPT 5.6](https://openai.com/index/gpt-5-6/)
+
+### Jun 2026
+
+- [NVidia Introduces **RTX Spark**](https://www.nvidia.com/en-us/products/rtx-spark/)
+- **Claude Fable 5**
+
+### May 2026
+
+- [Google announces **Antigravity 2.0**](https://antigravity.google/blog/google-io-2026)
+- [Google announces **Antigravity CLI**](https://antigravity.google/blog/introducing-google-antigravity-cli)
+- [Google announces **Gemini Spark**](https://gemini.google/overview/agent/spark/) ( Personal AI Agent ) **seems not yet generally available**
 
 ### Apr 2026
 

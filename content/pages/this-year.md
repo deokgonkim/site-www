@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2026-07-05T07:00:00+09:00
+date: 2026-08-03T17:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -19,6 +19,16 @@ tags:
 
 ### Jul 2026
 
+- Tested [github speckit](https://github.com/github/spec-kit) https://github.com/dgkim-lab/spec-kit-rmovie
+- Tested on my `k3s` cluster
+  - Apply [grafana faro](https://grafana.com/oss/faro/) on my `rmovie` (but didn't work as expected)
+  - Deployed [open webui](https://openwebui.com/)
+  - Deployed [grafana tempo](https://grafana.com/docs/tempo/latest/)
+  - Deployed [otel-collector](https://opentelemetry.io/docs/collector/)
+  - Deployed [grafana](https://grafana.com/)
+  - Deployed [redash](https://redash.io/)
+  - Deployed [frp](https://github.com/fatedier/frp)
+  - Deployed [vault](https://www.hashicorp.com/en/products/vault)
 - Deployed new [rmovie](https://github.com/dgkim-lab/rmovie)
 
 ### Jun 2026
