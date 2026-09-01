@@ -1,7 +1,7 @@
 ---
 # Title of your post. If not set, filename will be used.
 title: "This Year"
-date: 2026-08-03T17:00:00+09:00
+date: 2026-09-01T10:00:00+09:00
 draft: false
 
 # Set weigth to 1 to mark this post as sticky post.
@@ -16,6 +16,18 @@ tags:
   - "year"
 
 ---
+
+### Aug 2026
+
+- Created new App [pantry-pal](https://github.com/dgkim-lab/pantry-pal)
+- Started using [CachyOS](https://cachyos.org/) on my `Yoga Slim 7`
+- *Tested [ceph](https://ceph.io/en/) on my `proxmox-pico-pc` (but I don't have enough hosts to test, I just tested single node)* 
+- Deployed [mosquitto](https://mosquitto.org/) server to collect laptop battery SoC from `HomeAssistant`
+- Created new App [battery-monitor](https://github.com/dgkimnet/battery-monitor)
+- *My `RPi4` died...*
+- Deployed [openclaw](https://openclaw.ai/) on my `k3s` cluster
+- *Tested [AWS Bedrock](https://aws.amazon.com/bedrock/)*
+- *Tested and deployed [opensign](https://www.opensignlabs.com/) on my `k3s` cluster*
 
 ### Jul 2026
 
