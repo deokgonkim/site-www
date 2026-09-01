@@ -16,6 +16,15 @@ tags:
   - "year"
 ---
 
+### Aug 2026
+
+- [Introducing Qwen 3.8 Max](https://qwen.ai/blog?id=qwen3.8)
+- [Introducing Gemini 3.7 Flash](https://blog.google/intl/ko-kr/company-news/technology/introducing-gemini-3-7-flash-kr/)
+- [Introducing Grok 4.6](https://x.ai/news/grok-4-6)
+- [Introducing Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5)
+- Meta introduces [Muse Glimmer](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model)
+- [Quen3.8-Max](https://qwen.ai/blog?id=qwen3.8)
+
 ### Jul 2026
 
 - Kimi K3
