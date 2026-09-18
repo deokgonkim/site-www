@@ -833,6 +833,15 @@ series = "series"
     title = ""
     weight = 6
 
+  [[menu.main]]
+    identifier = "pitch-decks"
+    pre = "💰"
+    post = ""
+    name = "Pitch Decks"
+    url = "/pages/pitch-decks/"
+    title = ""
+    weight = 6
+
   #[[menu.main]]
   #  name = "🛍️Things to Buy🔗"
   #  url = "https://dgkimnet.notion.site/Things-to-Buy-some-day-435ceb4052ec4009b7926a86414a9042"
