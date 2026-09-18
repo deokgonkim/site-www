@@ -27,10 +27,12 @@ authors:
 - [public.dgkim.net](https://public.dgkim.net)
   - [guest](https://public.dgkim.net/guest/), [shop](https://public.dgkim.net/shop/) [^shop-note] [shop-print](https://public.dgkim.net/shop-print/) [^shop-print-note] 
   - [Linux Software](https://public.dgkim.net/linux-software/), [Mac Software](https://public.dgkim.net/mac-software/) [^quartz-note]
-- [rmovie.dgkim.net](https://rmovie.dgkim.net) [^rmovie-note]
+- ~~OLD [rmovie.dgkim.net](https://rmovie.dgkim.net) [^old-rmovie-note]~~
 
 ## My Apps
 
+- [Pantry pal](https://github.com/dgkim-lab/pantry-pal) [^pantry-pal-note]
+- [rmovie](https://github.com/dgkim-lab/rmovie) [^rmovie-note]
 - [Send to Linux](https://github.com/dgkimnet/sendtolinux) [^send-to-linux-note]
 - [Wanted Filter Extension](https://github.com/dgkimnet/wanted-filter-extension)
   - Firefox Addon : [Wanted Position Highlighter](https://addons.mozilla.org/en-US/firefox/addon/wanted-position-highlighter/)
@@ -43,5 +45,7 @@ authors:
 [^shop-note]: [related post](/posts/2024-nov-cloud-project/), [React](https://react.dev/), [MUI](https://mui.com/), [AWS Lambda](https://aws.amazon.com/lambda/), [AWS Cognito](https://aws.amazon.com/cognito/), [Telegram API](https://www.npmjs.com/package/node-telegram-bot-api), [Twilio for WhatsApp](https://www.npmjs.com/package/twilio), [PWA](https://web.dev/explore/progressive-web-apps), [Web FCM](https://firebase.google.com/docs/cloud-messaging), [Websocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API), [OpenAI API](https://openai.com/api/)
 [^shop-print-note]: [escpos](https://github.com/python-escpos/python-escpos), [tkinter](https://docs.python.org/3/library/tkinter.html), [pyinstaller](https://pypi.org/project/pyinstaller/), [websocket-client](https://pypi.org/project/websocket-client/)
 [^quartz-note]: [Quartz](https://quartz.jzhao.xyz/), [Obsidian](https://obsidian.md/)
-[^rmovie-note]: [AWS Lambda](https://aws.amazon.com/lambda/)
+[^old-rmovie-note]: [AWS Lambda](https://aws.amazon.com/lambda/)
 [^send-to-linux-note]: [Gnome Extension](https://extensions.gnome.org/), [Go lang](https://go.dev/), [Flatpak](https://flatpak.org/)
+[^rmovie-note]: [nextjs](https://nextjs.org/), [AWS Cognito](https://aws.amazon.com/cognito/), [PostgreSQL](https://www.postgresql.org/)
+[^pantry-pal-note]: [nextjs](https://nextjs.org/), [PWA](https://web.dev/explore/progressive-web-apps), [MUI](https://mui.com/), [zxing](https://www.npmjs.com/package/@zxing/browser?activeTab=dependents), [Prisma(orm)](https://www.prisma.io/orm), [AWS Cognito](https://aws.amazon.com/cognito/), [PostgreSQL](https://www.postgresql.org/), [escpos](https://github.com/python-escpos/python-escpos), [RabbitMQ](https://www.rabbitmq.com/)
